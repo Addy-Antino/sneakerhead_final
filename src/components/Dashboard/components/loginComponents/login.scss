@@ -1,0 +1,70 @@
+.rowSectionmain{
+    width: 50%;
+      
+    
+}
+.mainSell{
+    margin-left: 15%;
+    width: 50%;
+    margin: auto;
+    // text-align: center;
+    h2{
+        text-align: center;
+        // margin-top: 3rem;
+    }
+    .loginavtar{
+        margin: 1rem;
+        height: 6rem;
+        img{
+            border-radius: 50%;
+        }
+    }
+}
+.imgUpload{
+    margin-top: 1rem;
+}
+// profile style
+    
+
+
+
+
+.Profilemaincontaner{
+    margin-top: 5rem;
+    text-align: center;
+    .imgdiv  img{
+        height: 7rem;
+        border-radius: 50%;
+    }
+    h2{
+        margin-top: 2rem;
+    }
+}
+.imageupload{
+    text-align:-webkit-center;
+    margin: 1rem;
+}
+
+// my order componets
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;cursor: pointer;}
+  
+  #customers tr:hover {background-color: #ddd;cursor: pointer;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }

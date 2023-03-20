@@ -1,0 +1,102 @@
+#firstPage {
+
+    height: 100%;
+    padding: 0px;
+}
+
+
+
+
+@media (max-width: 731px) and (min-width:723px) {
+    #loginDiv {
+        width: 345px;
+    }
+}
+
+
+@media (max-width: 723px) and (min-width:713px) {
+
+    #loginDiv {
+        width: 335px;
+    }
+}
+
+
+@media (max-width: 712px) and (min-width:705px) {
+
+    #loginDiv {
+        width: 330px;
+    }
+}
+
+
+@media (max-width: 705px) and (min-width:700px) {
+
+    #loginDiv {
+        width: 320px;
+    }
+}
+
+@media (max-width: 699px) and (min-width:688px) {
+
+    #loginDiv {
+        width: 310px;
+    }
+}
+
+@media (max-width: 687px) and (min-width:675px) {
+
+    #loginDiv {
+        width: 298px;
+    }
+}
+
+@media (max-width: 674px) and (min-width:671px) {
+
+    #loginDiv {
+        width:
+            299px;
+    }
+}
+
+@media (max-width: 670px) and (min-width:665px) {
+
+    #loginDiv {
+        width: 290px;
+    }
+}
+
+@media (max-width: 670px) and (min-width:666px) {
+
+    #loginDiv {
+        width: 290px;
+    }
+}
+
+@media (max-width: 665px) and (min-width:662px) {
+
+    #loginDiv {
+        width: 285px;
+    }
+}
+
+@media (max-width: 662px) and (min-width:660px) {
+
+    #loginDiv {
+        width: 280px;
+    }
+}
+
+@media (max-width: 658px) and (min-width:650px) {
+
+    #loginDiv {
+        width: 278px;
+    }
+}
+
+@media (max-width: 650px) and (min-width:642px) {
+
+    #loginDiv {
+        width: 270px;
+    }
+}

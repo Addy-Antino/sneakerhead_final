@@ -1,0 +1,689 @@
+html,
+body {
+  height: 0%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Mynerve', cursive; */
+  transition: background-color 0.2s;
+  will-change: background-color;
+
+  background: #f72648;
+  background: linear-gradient(#f72648, #fccb3c);
+
+}
+
+#borderremove {
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0px;
+}
+
+.card {
+  position: relative;
+  margin: 0 auto;
+  border-right: 0px;
+  background-color: #000000;
+  border-radius: 15px;
+  transition: left 0.5s ease-out;
+  will-change: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.card--19 {
+  top: 25px;
+  transform: translateX(-50%);
+  left: 50%;
+  border-right: 0px;
+}
+
+.card__header {
+  position: relative;
+  height: 73.1vh;
+  padding: 30px 30px 300px;
+  color: #000000;
+  border: 0px;
+}
+
+
+.card__title {
+  margin: 35px 0 px;
+  font-size: 30px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  display: flex;
+  position: relative;
+}
+
+.card__subtitle {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  top: 5rem;
+  margin-bottom: 200px;
+  position: relative;
+  top: -3rem;
+}
+
+#headerTitle {
+  color: #000000;
+  font-size: 3rem;
+  position: relative;
+  top: -3rem;
+  width: 24rem;
+}
+
+.card__body {
+  position: relative;
+  padding-top: 59px;
+  border: 0px;
+}
+
+
+@media (max-width: 1229px) and (min-width:1055px) {
+  .card__body {
+    position: relative;
+    padding-top: 58px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 23rem;
+  }
+}
+
+@media (max-width: 1054px) and (min-width:1052px) {
+  .card__body {
+    position: relative;
+    padding-top: 57px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 22.5rem;
+  }
+}
+
+@media (max-width: 1051px) and (min-width:961px) {
+  .card__body {
+    position: relative;
+    padding-top: 55px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 22rem;
+  }
+}
+
+@media (max-width: 961px) and (min-width:941px) {
+  .card__body {
+    position: relative;
+    padding-top: 54px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 21.5rem;
+  }
+}
+
+@media (max-width: 940px) and (min-width:935px) {
+  .card__body {
+    position: relative;
+    padding-top: 53px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 21rem;
+  }
+}
+
+@media (max-width: 934px) and (min-width:929px) {
+  .card__body {
+    position: relative;
+    padding-top: 52px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 20.5rem;
+  }
+}
+
+@media (max-width: 929px) and (min-width:853px) {
+  .card__body {
+    position: relative;
+    padding-top: 49px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 852px) and (min-width:843px) {
+  .card__body {
+    position: relative;
+    padding-top: 48.5px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 19.5rem;
+  }
+}
+
+@media (max-width: 843px) and (min-width:732px) {
+  .card__body {
+    position: relative;
+    padding-top: 45.5px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.1rem;
+    position: relative;
+    top: -3rem;
+    width: 19rem;
+  }
+}
+
+@media (max-width: 731px) and (min-width:710px) {
+  .card__body {
+    position: relative;
+    padding-top: 42.5px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 2.1rem; */
+    position: relative;
+    top: -3rem;
+    width: 18.5rem;
+  }
+}
+
+@media (max-width: 709px) and (min-width:679px) {
+  .card__body {
+    position: relative;
+    padding-top: 41px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.9rem; */
+    position: relative;
+    top: -3rem;
+    width: 18rem;
+  }
+}
+
+@media (max-width: 678px) and (min-width:585px) {
+  .card__body {
+    position: relative;
+    padding-top: 40px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 17.5rem;
+  }
+}
+
+@media (max-width: 584px) and (min-width:579px) {
+  .card__body {
+    position: relative;
+    padding-top: 38px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 17rem;
+  }
+}
+
+@media (max-width: 579px) and (min-width:576px) {
+  .card__body {
+    position: relative;
+    padding-top: 34px;
+    border: 0px;
+
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 16.5rem;
+  }
+}
+
+
+@media (max-width: 576px) and (min-width:55px) {
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 16.5rem;
+  }
+}
+
+@media (max-width: 536px) and (min-width:500px) {
+  .card__body {
+    position: relative;
+    padding-top: 54px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 16rem;
+  }
+}
+html,
+body {
+  height: 0%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Mynerve', cursive; */
+  transition: background-color 0.2s;
+  will-change: background-color;
+
+  background: #f72648;
+  background: linear-gradient(#f72648, #fccb3c);
+
+}
+
+#borderremove {
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0px;
+}
+
+.card {
+  position: relative;
+  margin: 0 auto;
+  border-right: 0px;
+  background-color: #000000;
+  border-radius: 15px;
+  transition: left 0.5s ease-out;
+  will-change: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.card--19 {
+  top: 25px;
+  transform: translateX(-50%);
+  left: 50%;
+  border-right: 0px;
+}
+
+.card__header {
+  position: relative;
+  height: 72.1vh;
+  padding: 30px 30px 300px;
+  color: #000000;
+  border: 0px;
+}
+
+
+.card__title {
+  margin: 35px 0 px;
+  font-size: 30px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  display: flex;
+  position: relative;
+}
+
+.card__subtitle {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  top: 5rem;
+  margin-bottom: 200px;
+  position: relative;
+  top: -3rem;
+}
+
+#headerTitle {
+  color: #000000;
+  font-size: 3rem;
+  position: relative;
+  top: -3rem;
+  width: 24rem;
+}
+
+.card__body {
+  position: relative;
+  padding-top: 59px;
+  border: 0px;
+}
+
+
+@media (max-width: 1229px) and (min-width:1055px) {
+  .card__body {
+    position: relative;
+    padding-top: 58px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 23rem;
+  }
+}
+
+@media (max-width: 1054px) and (min-width:1052px) {
+  .card__body {
+    position: relative;
+    padding-top: 57px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 22.5rem;
+  }
+}
+
+@media (max-width: 1051px) and (min-width:961px) {
+  .card__body {
+    position: relative;
+    padding-top: 55px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 22rem;
+  }
+}
+
+@media (max-width: 961px) and (min-width:941px) {
+  .card__body {
+    position: relative;
+    padding-top: 54px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 21.5rem;
+  }
+}
+
+@media (max-width: 940px) and (min-width:935px) {
+  .card__body {
+    position: relative;
+    padding-top: 53px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 21rem;
+  }
+}
+
+@media (max-width: 934px) and (min-width:929px) {
+  .card__body {
+    position: relative;
+    padding-top: 52px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 20.5rem;
+  }
+}
+
+@media (max-width: 929px) and (min-width:853px) {
+  .card__body {
+    position: relative;
+    padding-top: 49px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 852px) and (min-width:843px) {
+  .card__body {
+    position: relative;
+    padding-top: 48.5px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.5rem;
+    position: relative;
+    top: -3rem;
+    width: 19.5rem;
+  }
+}
+
+@media (max-width: 843px) and (min-width:732px) {
+  .card__body {
+    position: relative;
+    padding-top: 45.5px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    font-size: 2.1rem;
+    position: relative;
+    top: -3rem;
+    width: 19rem;
+  }
+}
+
+@media (max-width: 731px) and (min-width:710px) {
+  .card__body {
+    position: relative;
+    padding-top: 42.5px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 2.1rem; */
+    position: relative;
+    top: -3rem;
+    width: 18.5rem;
+  }
+}
+
+@media (max-width: 709px) and (min-width:679px) {
+  .card__body {
+    position: relative;
+    padding-top: 41px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.9rem; */
+    position: relative;
+    top: -3rem;
+    width: 18rem;
+  }
+}
+
+@media (max-width: 678px) and (min-width:585px) {
+  .card__body {
+    position: relative;
+    padding-top: 40px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 17.5rem;
+  }
+}
+
+@media (max-width: 584px) and (min-width:579px) {
+  .card__body {
+    position: relative;
+    padding-top: 38px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 17rem;
+  }
+}
+
+@media (max-width: 579px) and (min-width:576px) {
+  .card__body {
+    position: relative;
+    padding-top: 34px;
+    border: 0px;
+
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 16.5rem;
+  }
+}
+
+
+@media (max-width: 576px) and (min-width:55px) {
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 16.5rem;
+  }
+}
+
+@media (max-width: 536px) and (min-width:500px) {
+  .card__body {
+    position: relative;
+    padding-top: 54px;
+    border: 0px;
+  }
+
+  #headerTitle {
+    color: #000000;
+    /* font-size: 1.8rem; */
+    position: relative;
+    top: -3rem;
+    width: 16rem;
+  }
+}
+
+.card__image {
+  z-index: 1;
+  position: absolute;
+  top: -800%;
+  left: 1rem;
+  width: 90%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

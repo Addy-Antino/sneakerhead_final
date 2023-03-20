@@ -1,0 +1,53 @@
+.form-control:focus {
+  border-color: red;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.container {
+  position: relative;
+  top: 40%;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  /* font-family: 'Mynerve', cursive; */
+}
+
+.warning {
+  color: red;
+}
+
+#loginButton {
+  margin-top: 0.5rem;
+}
+
+.form-group {
+  width: 350px;
+}
+
+#forgot{
+  position: relative;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: blue;
+  margin-top: 1rem;
+  a{
+    color: blue;
+  }
+}
+
+#register {
+  margin-top: .25rem;
+  float: right;
+  border: none;
+  background-color: white;
+  color: blue;
+  padding-top: 1rem;
+  a{
+    color: blue;
+    text-decoration: none;
+  }
+}
