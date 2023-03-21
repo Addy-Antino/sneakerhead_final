@@ -26,7 +26,7 @@ function Help() {
     event.preventDefault();
     console.log("inside api", name);
     axios
-      .post("http://13.232.89.169:3000/api/v1/help", {
+      .post("http://13.127.22.209:3000/api/v1/help", {
         // Data to be sent to the server
         name,
         email,
