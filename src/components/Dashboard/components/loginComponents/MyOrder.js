@@ -11,7 +11,7 @@ function MyOrder() {
   useEffect(() => {
     axios
       .get(
-        `http://13.232.89.169:3000/api/v1/products`
+        `http://13.127.22.209:3000/api/v1/products`
       )
       .then((res) => {
         setshowData(res.data.products);
