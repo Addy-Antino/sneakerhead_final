@@ -74,7 +74,7 @@ function ProductCard({ productData, setProductData, q }) {
       //for fetching data for page-1
       try {
         const response = await axios.get(
-          `http://13.232.89.169:3000/api/v1/products/pages`
+          `http://13.127.22.209:3000/api/v1/products/pages`
         );
         // setProductData(response.data.products);
         //fetching total pages from the database and setting state value via it...
@@ -86,7 +86,7 @@ function ProductCard({ productData, setProductData, q }) {
       //for fetching data based on pagination (page number)
       try {
         const response = await axios.get(
-          `http://13.232.89.169:3000/api/v1/products?page=${pageNumber}`
+          `http://13.127.22.209:3000/api/v1/products?page=${pageNumber}`
         );
         setProductData(response.data.products);
         //fetching total pages from the database and setting state value via it...
@@ -101,7 +101,7 @@ function ProductCard({ productData, setProductData, q }) {
     //   console.log(`we are on page ${currentPage} and location ${location} and no search keyword.`)
     //   try {
     //     const response = await axios.get(
-    //       `http://13.232.89.169:3000/api/v1/products/pages`
+    //       `http://13.127.22.209:3000/api/v1/products/pages`
     //     );
     //     // setProductData(response.data.products);
     //     //fetching total pages from the database and setting state value via it...
@@ -301,7 +301,7 @@ function ProductCard({ productData, setProductData, q }) {
       async function filterData() {
         try {
           const response = await axios.get(
-            `http://13.232.89.169:3000/api/v1/products?keyword=${searchKeyword}&location=${location}`
+            `http://13.127.22.209:3000/api/v1/products?keyword=${searchKeyword}&location=${location}`
           );
           console.log("location and search ka data", response.data.products);
           setProductData(response.data.products);
@@ -317,7 +317,7 @@ function ProductCard({ productData, setProductData, q }) {
       async function filterData() {
         try {
           const response = await axios.get(
-            `http://13.232.89.169:3000/api/v1/products?location=${location}`
+            `http://13.127.22.209:3000/api/v1/products?location=${location}`
           );
           console.log(" sirf location ka data", response);
           setProductData(response.data.products);
@@ -358,7 +358,7 @@ function ProductCard({ productData, setProductData, q }) {
       image: item.image.url,
     };
     axios
-      .post("http://13.232.89.169:3000/api/v1/cart", data)
+      .post("http://13.127.22.209:3000/api/v1/cart", data)
       .then((response) => {
         console.log("response aya", response.data);
         // Handle successful response from server
