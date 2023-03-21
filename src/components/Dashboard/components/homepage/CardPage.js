@@ -19,7 +19,7 @@ function CardPage({ setQ }) {
     async function getCartData() {
       try {
         const response = await axios.get(
-          "http://13.232.89.169:3000/api/v1/carts"
+          "http://13.127.22.209:3000/api/v1/carts"
         );
         console.log("Cart returned the data: ", response.data.cart);
         setCartData(response.data.cart);
@@ -48,7 +48,7 @@ function CardPage({ setQ }) {
   //for handling when the clearcart button will be clicked
   const handleClearButton = () => {
     axios
-      .delete("http://13.232.89.169:3000/api/v1/cart/all")
+      .delete("http://13.127.22.209:3000/api/v1/cart/all")
       .then((response) => {
         console.log("clear cart clicked", response);
         setclearCartbutton(true);
