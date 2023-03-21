@@ -25,7 +25,7 @@ function ResetPassword() {
     try {
       if (verificationLink.includes("/api/v1/password/reset/") && token) {
         const response = await axios.put(
-          `http://13.232.89.169:3000/api/v1/password/reset/${token}`,
+          `http://13.127.22.209:3000/api/v1/password/reset/${token}`,
           { token, password, confirmPassword }
         );
         console.log("then block is running");
