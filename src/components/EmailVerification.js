@@ -14,7 +14,7 @@ const EmailVerification = () => {
       try {
         if (verificationLink.includes("/api/v1/verify/") && verificationToken) {
           const response = await axios.get(
-            `http://13.232.89.169:3000/api/v1/verify/${verificationId}/${verificationToken}`
+            `http://13.127.22.209:3000/api/v1/verify/${verificationId}/${verificationToken}`
           );
           console.log("data is ", response.data);
           setIsVerified(true);
