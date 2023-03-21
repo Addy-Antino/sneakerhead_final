@@ -114,7 +114,7 @@ function Login({ setIsAuthenticated }) {
     //performing login using the axios...
     try {
       const response = await axios.post(
-        "http://13.232.89.169:3000/api/v1/login",
+        "http://13.127.22.209:3000/api/v1/login",
         {
           email,
           password,
@@ -191,7 +191,7 @@ function Login({ setIsAuthenticated }) {
 
     ///this api is for registering.././...
     axios
-      .post("http://13.232.89.169:3000/api/v1/register", {
+      .post("http://13.127.22.209:3000/api/v1/register", {
         name,
         email,
         password,
