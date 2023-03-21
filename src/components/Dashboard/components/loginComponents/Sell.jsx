@@ -69,7 +69,7 @@ function Sell() {
     formData.append("image", image);
     try {
       const response = await axios.post(
-        "http://13.232.89.169:3000/api/v1/new/product",
+        "http://13.127.22.209:3000/api/v1/new/product",
         formData
       );
       toast.success("Successfully Added The Product!");
